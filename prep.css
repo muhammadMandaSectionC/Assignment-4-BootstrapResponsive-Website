@@ -1,0 +1,162 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* For all section's title */
+.section-title {
+  font-size: 3rem;
+}
+
+/* Navigation */
+.logo {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.nav-item {
+  margin: 0 20px;
+}
+
+/* Main Section */
+#main {
+  background: url("https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/5ayReKkz8RaBVuTvrxgA3rvh.png")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header-main {
+  margin-top: 20px;
+}
+.header-info {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
+}
+.btn-outline-light {
+  margin-left: 20px;
+}
+.btn-space {
+  margin-top: 20px;
+}
+
+/* Overview */
+.info-width {
+  width: 60%;
+  font-size: 1.3rem;
+}
+.overview-icon {
+  font-size: 3rem;
+  color: #5a34fc;
+}
+.overview-row {
+  margin-top: 5rem;
+}
+.overview-header {
+  font-weight: 900;
+}
+.overview-icon,
+.overview-header,
+.info-width {
+  padding: 1rem 0;
+}
+
+/* Testimonials */
+#testimonials {
+  /* background-color: #5a34fc; */
+  background: url("https://live.staticflickr.com/65535/52923139721_da79f531d0_h.jpg");
+  margin-top: 100px;
+  padding: 100px 0;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.carousel-item h3 {
+  font-size: 2.5rem;
+}
+
+/* Pricing */
+#pricing {
+  margin-top: 100px;
+  padding: 100px 0;
+}
+.pricing-title {
+  margin-bottom: 100px;
+}
+.card {
+  box-shadow: 0px 3px 63px -12px rgba(0, 0, 0, 0.75);
+  border-color: #ec1717;
+  border-radius: 10px;
+}
+.card-body {
+  padding: 7% 0;
+}
+.pricing-text {
+  color: #5a34fc;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5% 0%;
+}
+.btn-block {
+  font-size: 1.5rem;
+}
+
+/* Call To Action */
+#cta {
+  /* background-color: #5a34fc; */
+  background: url("https://image.api.playstation.com/vulcan/img/rnd/202011/0714/Cu9fyu6DM41JPekXLf1neF9r.png");
+  padding: 7% 15%;
+}
+.cta-text {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* Footer */
+#footer {
+  height: 100px;
+}
+.footer-icon {
+  font-size: 2rem;
+  color: #5a34fc;
+  padding: 1% 3%;
+  padding-bottom: 0%;
+  transition: transform 0.3s ease-in-out;
+}
+.footer-icon:hover {
+  transform: scale(1.2);
+  color: #b70000;
+}
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .iphone-mock {
+    display: none;
+  }
+  .btn-outline-light {
+    margin-left: 0px;
+  }
+  .overview-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .overview-icon,
+  .overview-header,
+  .info-width {
+    padding: 1rem 20px; /* Adjusted padding for better responsiveness */
+  }
+  .carousel-item {
+    padding: 7% 5%; /* Adjusted padding for better responsiveness */
+  }
+}
